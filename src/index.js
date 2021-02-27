@@ -1,1 +1,4 @@
-import './styles.css';
+'use strict'
+
+import './styles.scss';
+import './js/calc';

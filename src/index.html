@@ -4,42 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Starter Kit</title>
-
-    <!-- Don't forget to delete this style tag. -->
-    <style>
-      body {
-        min-height: 100vh;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .intro {
-        text-align: center;
-      }
-
-      .intro h1 {
-        margin-top: 0;
-        font-weight: 500;
-        font-size: 40px;
-      }
-
-      .intro img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
+    <title>Trading service</title>
   </head>
 
   <body>
-    <article class="intro">
-      <h1>Webpack starter kit</h1>
+    <header class="header">
+      <h1 class="header-logo">Trading service</h1>
+    </header>
 
-      <!-- HTML image reference example. -->
-      <img src="./images/intro.png" alt="" width="640" />
-    </article>
+    <main>
+      <div class="data-card">
+        <div class="data-header">
+          Currency #1
+        </div>
+        <form class="data-form">
+          <input id="one" type="number" class="data-body__price input-price-js" placeholder="Price" />
+          <button id="one" type="reset" class="data-body__submit reset-btn-js">Reset</button>
+        </form>
+        <div class="data-results results-card-one-js">
+          <span class="default-text">Enter data</span>
+      
+        </div>
+      </div>
+      
+      <div class="data-card">
+        <div class="data-header">
+          Currency #2
+        </div>
+        <form class="data-form">
+          <input id="two" type="number" class="data-body__price input-price-js" placeholder="Price" />
+          <button id="two" type="reset" class="data-body__submit reset-btn-js">Reset</button>
+        </form>
+        <div class="data-results results-card-two-js">
+          <span class="default-text">Enter data</span>
+
+        </div>
+      </div>
+      
+      <div class="data-card">
+        <div class="data-header">
+          Currency #3
+        </div>
+        <form class="data-form">
+          <input id="three" type="number" class="data-body__price input-price-js" placeholder="Price" />
+          <button id="three" type="reset" class="data-body__submit reset-btn-js">Reset</button>
+        </form>
+        <div class="data-results results-card-three-js">
+          <span class="default-text">Enter data</span>
+          
+        </div>
+      
+        </div>
+      </div>
+      
+      <div class="data-card">
+        <div class="data-header">
+          Currency #4
+        </div>
+        <form class="data-form">
+          <input id="four" type="number" class="data-body__price input-price-js" placeholder="Price" />
+          <button id="four" type="reset" class="data-body__submit reset-btn-js">Reset</button>
+        </form>
+        <div class="data-results results-card-four-js">
+          <span class="default-text">Enter data</span>
+      
+        </div>
+      </div>
+      
+    </main>
   </body>
 </html>
